@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+.w1080{margin:0 auto;width:1080px; position:relative;}
+.w1200{margin:0 auto;width:1200px; position:relative;}
+.w1068{ float:right;width:990px; position:relative;}
+.max640{margin:0 auto;min-width:320px; max-width:640px; position:relative;}
+
+
+
+/* 左浮动 */
+.fl{float:left;}
+
+/* 左浮动 */
+.fr{float:right;}
+
+/* filter:alpha(opacity=90); opacity:0.3;  IE8兼容 */
+
+/* filter:alpha(opacity=50); background:rgba(0,0,0,.5); 高版本浏览器 */
+
+/* 自身高度的一半 不兼容IE8*/
+.tfX{transform: translateX(-50%);} /* 自身高度的一半 */
+.tfY{transform: translateY(-50%);} /* 自身宽度一半 */
+.tf{transform: translate(-50%);} /* 自身宽高的一半，绝对居中 */
+
+/* 阴影 */
+.bs3{-webkit-box-shadow: 0 0px 7px rgba(0,0,0,0.1); -0-box-shadow: 0 0px 7px rgba(0,0,0,0.1); -moz-box-shadow: 0 0px 7px rgba(0,0,0,0.1); box-shadow: 0 0px 7px rgba(0,0,0,0.1);}
+
+
+/* 动画时间 */
+.tt09{ -webkit-transition: all .9s linear; -o-transition: all .9s linear; -moz-transition: all .9s linear; transition: all .9s linear;}
+.tt08{ -webkit-transition: all .8s linear; -o-transition: all .8s linear; -moz-transition: all .8s linear; transition: all .8s linear;}
+.tt07{ -webkit-transition: all .7s linear; -o-transition: all .7s linear; -moz-transition: all .7s linear; transition: all .7s linear;}
+.tt06{ -webkit-transition: all .6s linear; -o-transition: all .6s linear; -moz-transition: all .6s linear; transition: all .6s linear;}
+.tt05{ -webkit-transition: all .5s linear; -o-transition: all .5s linear; -moz-transition: all .5s linear; transition: all .5s linear;}
+.tt04{ -webkit-transition: all .4s linear; -o-transition: all .4s linear; -moz-transition: all .4s linear; transition: all .4s linear;}
+.tt03{ -webkit-transition: all .3s linear; -o-transition: all .3s linear; -moz-transition: all .3s linear; transition: all .3s linear;}
+.tt02{ -webkit-transition: all .2s linear; -o-transition: all .2s linear; -moz-transition: all .2s linear; transition: all .2s linear;}
+.tt01{ -webkit-transition: all .1s linear; -o-transition: all .1s linear; -moz-transition: all .1s linear; transition: all .1s linear;}
+
+
+/* 清楚浮动 */
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;}
+
+
+/* 强制不换行 */
+.nowrap{white-space:nowrap;word-wrap:normal;}
+/* 连续字符换行 */
+.wrap{white-space:normal;word-wrap:break-word;}
+
+h1{display:block;
+	white-space:nowrap;
+	word-wrap:normal;overflow:hidden;text-overflow:ellipsis;text-align:left;}
+/* 文字溢出显示省略号 */
+.ellipsis{display:block;
+	white-space:nowrap;
+	word-wrap:normal;overflow:hidden;text-overflow:ellipsis;text-align:left;}
+/** 隐藏文字 * 1.text-indent:-999em 存在性能问题 */
+.text-hide{text-indent:100%;white-space:nowrap;overflow:hidden;}
+
+
+/* 使用display:inline-block的时候去掉间隙 外层加.dib-box */
+.dib{display:inline-block;*display:inline;*zoom:1;}
+.dib-box{font-size:0;*word-spacing:-1px;}
+@media (-webkit-min-device-pixel-ratio:0){.dib-box{letter-spacing:-5px;}}
+.dib-box .dib{vertical-align:top;font-size:12px;letter-spacing:normal;/*单个字或者字母的间距*/word-spacing:normal;/*英文单词的间距*/line-height: inherit;/*继承父级*/
+ 
+}
+
+
+/* CSS 三角形组件 */
+.arrow {font-size:0;width:0;height:0;line-height:0;display:inline-block;*display:inline;*zoom:1;vertical-align:-2px;border:0 dashed transparent;border-width:6px;}
+/* 上 */
+.arrow-top{border-bottom-style:solid;border-bottom-color:#2AB2DF;}
+/* 下 */
+.arrow-bottom{border-top-style:solid;border-top-color:#2AB2DF;}
+/* 左 */
+.arrow-left{border-right-style:solid;border-right-color:#2AB2DF;}
+/* 右 */
+.arrow-right {border-left-style:solid;border-left-color:#2AB2DF;}
+/* ◤左上角 */
+.arrow-left-top{border-top-style:solid;border-top-color:#2AB2DF;border-left-width:0 !important;}
+/* ◥右上角 */
+.arrow-right-top{border-top-style:solid;border-top-color:#2AB2DF;border-right-width:0 !important;}
+/* ◣左下角 */
+.arrow-left-bottom{border-bottom-style:solid;border-bottom-color:#2AB2DF;border-left-width:0 !important;}
+/* ◢右下角 */
+.arrow-right-bottom{border-bottom-style:solid;border-bottom-color:#2AB2DF;border-right-width:0 !important;}
+
+
+
+
+
+/* 表格 */
+/* 只显示水平边框 .table */
+.table th,.table table th{border:0 none;border-bottom:2px solid #ccc;}
+.table td,.table table td{border:0 none;border-top:1px solid #ddd;}
+/* 隔行换色 .table-striped */
+.table-striped tbody tr:nth-child(odd) td{background-color:#fafafa;}
+/* 鼠标 hover 时换色 .table-hover */
+.type .table-hover tbody tr:hover td,.type .table-hover thead tr:hover th{background-color:#f6f6f6;}
+/* 响应式表格 */
+@media(max-width:767px){
+	.table-responsive{width:100%;overflow-x:scroll;overflow-y:hidden;border-right:1px solid #ddd;-ms-overflow-style:-ms-autohiding-scrollbar;-webkit-overflow-scrolling: touch;}
+	.table-responsive table{margin:0;}
+	.table-responsive th,.table-responsive td{white-space:nowrap;}
+	.table-responsive .table{border:0 none;}
+}
+
+
+/* 打印样式 */
+@media print{
+	*{background-color:transparent !important;-webkit-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important;color:#000 !important;}
+	a,a:visited{text-decoration: underline;}
+	a[href]:after{content: "(" attr(href) ")";}
+	abbr[title]:after{content: "(" attr(title) ")";}
+	a[href^="javascript:"]:after,a[href^="#"]:after{content:"";}
+	pre,blockquote{border:1px solid #999;page-break-inside:avoid;}
+	thead{display:table-header-group;}
+	tr,img{page-break-inside:avoid;}
+	img{max-width:100% !important;}
+	@page{margin:0.5cm;}
+	p,h2,h3{orphans:3;widows:3;}
+	h2,h3{page-break-after:avoid;}
+}

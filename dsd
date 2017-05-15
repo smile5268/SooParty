@@ -1,0 +1,118 @@
+*   [33mcommit 49b9bab25916f6a7fa7f7ee83d3bb11b6c50c338[m
+[31m|[m[32m\[m  Merge: e0b6cfc d1267e0
+[31m|[m [32m|[m Author: ouyangxing <168168168vip@gmail.com>
+[31m|[m [32m|[m Date:   Fri Aug 12 09:21:03 2016 +0800
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     合&准备个人信息
+[31m|[m [32m|[m   
+[31m|[m * [33mcommit d1267e0030b6c28547de131eb36c59ce3d4b36db[m
+[31m|[m [32m|[m Author: Aodi <smile5268@126.com>
+[31m|[m [32m|[m Date:   Thu Aug 11 18:40:22 2016 +0800
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     上传2&个人中心
+[31m|[m [32m|[m   
+* [32m|[m [33mcommit e0b6cfc3413ca5deb04425f5ef4317eb7263c0dc[m
+[32m|[m[32m/[m  Author: ouyangxing <168168168vip@gmail.com>
+[32m|[m   Date:   Thu Aug 11 19:10:02 2016 +0800
+[32m|[m   
+[32m|[m       会员管理
+[32m|[m    
+*   [33mcommit beac3a0c8c592c102dd3c13b21ed270471a32610[m
+[33m|[m[34m\[m  Merge: 12038d2 6ee4c93
+[33m|[m [34m|[m Author: ouyangxing <168168168vip@gmail.com>
+[33m|[m [34m|[m Date:   Mon Aug 8 09:44:58 2016 +0800
+[33m|[m [34m|[m 
+[33m|[m [34m|[m     comment
+[33m|[m [34m|[m   
+[33m|[m * [33mcommit 6ee4c93220938d678b73308301eee4ad9084d291[m
+[33m|[m [34m|[m Author: ouyangxing <168168168vip@gmail.com>
+[33m|[m [34m|[m Date:   Mon Aug 8 09:16:04 2016 +0800
+[33m|[m [34m|[m 
+[33m|[m [34m|[m     后台框架&表&管理员
+[33m|[m [34m|[m   
+* [34m|[m [33mcommit 12038d29fdb25c6cd79b66976465ccebc86e6b77[m
+[34m|[m [34m|[m Author: Aodi <smile5268@126.com>
+[34m|[m [34m|[m Date:   Sat Aug 6 15:28:38 2016 +0800
+[34m|[m [34m|[m 
+[34m|[m [34m|[m     发布8-6
+[34m|[m [34m|[m     
+* [34m|[m   [33mcommit 011101ef6345fabaa1265d001d84a9c9ef933eb5[m
+[35m|[m[36m\[m [34m\[m  Merge: 520c19b a7272cc
+[35m|[m [36m|[m [34m|[m Author: Aodi <smile5268@126.com>
+[35m|[m [36m|[m [34m|[m Date:   Sat Aug 6 15:21:38 2016 +0800
+[35m|[m [36m|[m [34m|[m 
+[35m|[m [36m|[m [34m|[m     Merge branch 'smile'
+[35m|[m [36m|[m [34m|[m     
+[35m|[m [36m|[m [34m|[m      the commit.
+[35m|[m [36m|[m [34m|[m    
+[35m|[m * [34m|[m [33mcommit a7272ccf0b01bcd21a439fe6fef4a8b60ddc15f6[m
+[35m|[m [36m|[m [34m|[m Author: Aodi <smile5268@126.com>
+[35m|[m [36m|[m [34m|[m Date:   Fri Aug 5 16:24:34 2016 +0800
+[35m|[m [36m|[m [34m|[m 
+[35m|[m [36m|[m [34m|[m     上传页&店铺中心
+[35m|[m [36m|[m [34m|[m    
+* [36m|[m [34m|[m [33mcommit 520c19b79d6c6b1729a3917e6463f80bf465940b[m
+[34m|[m [36m|[m[34m/[m  Author: Aodi <smile5268@126.com>
+[34m|[m[34m/[m[36m|[m   Date:   Sat Aug 6 11:28:11 2016 +0800
+[34m|[m [36m|[m   
+[34m|[m [36m|[m       routes
+[34m|[m [36m|[m   
+* [36m|[m [33mcommit 1c65123a30d897b440c17fd2b19e46e6a5c696f0[m
+[36m|[m[36m/[m  Author: ouyangxing <168168168vip@gmail.com>
+[36m|[m   Date:   Wed Aug 3 10:40:23 2016 +0800
+[36m|[m   
+[36m|[m       测试
+[36m|[m  
+* [33mcommit 94f2baf373b1bfb1b03e57b5ca6f89f5ba7079ff[m
+[36m|[m Author: Aodi <smile5268@126.com>
+[36m|[m Date:   Mon Aug 1 16:49:34 2016 +0800
+[36m|[m 
+[36m|[m     错误的建表文件删除&个人中心页
+[36m|[m  
+* [33mcommit 992af722fde586f111df6f289cf5e68390542fea[m
+[36m|[m Author: Aodi <smile5268@126.com>
+[36m|[m Date:   Fri Jul 29 16:51:48 2016 +0800
+[36m|[m 
+[36m|[m     列表筛选功能[部分]&详情页
+[36m|[m  
+* [33mcommit d6760ec750cceccfd67454649415239dad611c77[m
+[36m|[m Author: Aodi <smile5268@126.com>
+[36m|[m Date:   Thu Jul 28 16:10:56 2016 +0800
+[36m|[m 
+[36m|[m     comment
+[36m|[m  
+* [33mcommit 740cfe50fb7f63b8a41740a033357da7551fd6ad[m
+[36m|[m Author: Aodi <smile5268@126.com>
+[36m|[m Date:   Mon Jul 25 14:46:41 2016 +0800
+[36m|[m 
+[36m|[m     登录&注销
+[36m|[m  
+* [33mcommit b4b4d0170de3ba085c35e7f6dd725ea9068e5e90[m
+[36m|[m Author: Aodi <smile5268@126.com>
+[36m|[m Date:   Sat Jul 23 17:00:29 2016 +0800
+[36m|[m 
+[36m|[m     注册和短信功能的实现
+[36m|[m  
+* [33mcommit 7959940d29ad492c188cfde7b92d75935a94471b[m
+[36m|[m Author: Aodi <smile5268@126.com>
+[36m|[m Date:   Wed Jul 20 18:08:12 2016 +0800
+[36m|[m 
+[36m|[m     登录&注册＆页面
+[36m|[m  
+* [33mcommit e3290042082390f99274ee491a6d2b9cd946894e[m
+[36m|[m Author: Aodi <smile5268@126.com>
+[36m|[m Date:   Wed Jul 20 11:25:12 2016 +0800
+[36m|[m 
+[36m|[m     数据库
+[36m|[m  
+* [33mcommit 84a9d742ee6abe7ab5dc8a90f2335f37cb18b7fd[m
+[36m|[m Author: smile <smile5268@126.com>
+[36m|[m Date:   Sat Jul 16 08:05:18 2016 +0000
+[36m|[m 
+[36m|[m     .env.example edited online with Bitbucket
+[36m|[m  
+* [33mcommit 22e136ac81dc5f5b5cc971c203068ceb9b470f9a[m
+  Author: Aodi <smile5268@126.com>
+  Date:   Sat Jul 16 15:56:47 2016 +0800
+  
+      firt commit
